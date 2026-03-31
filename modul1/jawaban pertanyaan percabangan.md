@@ -1,5 +1,3 @@
-Berikut adalah jawaban untuk setiap pertanyaan mengenai kode Arduino yang kamu berikan:
-
 ### 1. Kapan program masuk ke blok `if`?
 Program masuk ke dalam blok `if` ketika variabel `timeDelay` memiliki nilai **kurang dari atau sama dengan 100** (`<= 100`). Ini terjadi setelah beberapa kali siklus perulangan di mana nilai `timeDelay` terus dikurangi hingga kedipan LED mencapai titik tercepatnya.
 
@@ -13,7 +11,7 @@ Perintah `delay(timeDelay)` berfungsi untuk **menghentikan sementara (menjeda) e
 
 ---
 
-### 4. Modifikasi Kode dan README.md
+### 4. Modifikasi Kode
 
 Untuk mengubah alur agar kedipan tidak langsung di-reset melainkan melambat ke tahap "sedang" lalu "mati", kita bisa menggunakan variabel bantuan (contoh: boolean) untuk melacak apakah siklus sedang dipercepat atau diperlambat. 
 
@@ -56,7 +54,7 @@ void loop() {
 }
 ```
 
-Berikut adalah format file `README.md` yang memuat penjelasan setiap baris kodenya:
+penjelasan setiap baris kodenya:
 
 ```markdown
 # Dokumentasi Program LED: Lambat → Cepat → Sedang → Mati
