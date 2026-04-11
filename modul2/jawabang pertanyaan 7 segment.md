@@ -26,7 +26,7 @@ Untuk menampilkan angka '0' pada 7-segment, segmen a, b, c, d, e, dan f harus me
 
 [cite_start]Untuk membuat tampilan berjalan mundur dari F ke 0, modifikasi utama dilakukan pada fungsi `loop()` [cite: 4] dengan membalik urutan iterasi perulangan `for`. 
 
-Berikut adalah modifikasi kodenya, disusun lengkap dalam bentuk `README.md`:
+Berikut adalah modifikasi kodenya:
 
 ```markdown
 # Modul 2: 7-Segment Display Countdown (F ke 0)
