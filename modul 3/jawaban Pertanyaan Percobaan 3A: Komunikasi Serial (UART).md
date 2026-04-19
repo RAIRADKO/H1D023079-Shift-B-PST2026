@@ -294,15 +294,3 @@ Pada program ini, penggunaan `millis()` memastikan bahwa meskipun LED sedang dal
 Arduino Pin 12  ──►  [Resistor 220Ω]  ──►  [LED Anoda (+)]
                                             [LED Katoda (−)]  ──►  GND
 ```
-
----
-
-## Cara Penggunaan
-
-1. Upload sketch `modul3_UART_modified.ino` ke Arduino.
-2. Buka **Serial Monitor** (baud rate: **9600**).
-3. Pastikan line ending diatur ke **"Both NL & CR"** atau **"Newline"**.
-4. Ketik `1` → LED menyala permanen.
-5. Ketik `0` → LED mati.
-6. Ketik `2` → LED berkedip terus-menerus.
-7. Ketik `1` atau `0` untuk menghentikan mode kedip kapan saja.
