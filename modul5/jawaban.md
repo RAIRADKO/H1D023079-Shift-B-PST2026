@@ -424,7 +424,3 @@ Insight utama dari praktikum ini adalah pemahaman bahwa **RTOS bukan sekadar lib
 Pada Arduino biasa, programmer harus "memikirkan waktu" secara manual — mengatur urutan pemanggilan fungsi, menghitung kapan setiap aksi harus dilakukan, dan menghindari `delay()` agar sistem tetap responsif. Ini cepat menjadi kompleks dan tidak terstruktur seiring bertambahnya fitur.
 
 Dengan RTOS, programmer dapat **mendefinisikan setiap perilaku sebagai task mandiri** dengan tanggung jawabnya masing-masing, lalu membiarkan scheduler yang mengelola waktu. Hasilnya adalah kode yang lebih modular, mudah di-debug, dan lebih mudah dikembangkan. Penggunaan queue juga mengajarkan bahwa komunikasi antar-task harus dilakukan melalui mekanisme yang thread-safe, bukan melalui variabel global sembarangan, untuk mencegah bug yang sulit dilacak seperti race condition.
-
----
-
-*Dibuat untuk Praktikum Sistem Tertanam – Modul 5*
